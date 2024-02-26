@@ -14,3 +14,8 @@ function peopleWithAgeDrink(age) {
         return "drink whisky";
     }
 }
+
+
+function getChar(c){
+    return String.fromCharCode(c);
+}
