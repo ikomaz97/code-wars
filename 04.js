@@ -19,3 +19,7 @@ function peopleWithAgeDrink(age) {
 function getChar(c){
     return String.fromCharCode(c);
 }
+
+function combat(health, damage) {
+    return health < damage ? 0 : health - damage
+}
