@@ -53,3 +53,7 @@ function noBoringZeros(n) {
     // В противном случае преобразуем строку обратно в число и возвращаем
     return parseInt(str, 10);
 }
+
+function mouthSize(animal) {
+    return animal.toLowerCase() == "alligator"  ? "small" : "wide";
+}
