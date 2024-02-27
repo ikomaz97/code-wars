@@ -33,3 +33,6 @@ function xor(a, b) {
     else if  ( a === true && b === true ) return false;
 }
 
+function xor(a, b) {
+    return a != b;
+}
