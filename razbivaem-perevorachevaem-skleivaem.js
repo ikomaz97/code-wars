@@ -12,3 +12,7 @@ function addFive(num) {
     var total = num + 5
     return total
 }
+
+function replace(s) {
+    return s.replace(/[aeiouAEIOU]/g, "!");
+}
