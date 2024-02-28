@@ -7,3 +7,8 @@ function nameShuffler(str) {
 function reverse(string){
     return string.split(' ').reverse().join(' ');
 }
+
+function addFive(num) {
+    var total = num + 5
+    return total
+}
