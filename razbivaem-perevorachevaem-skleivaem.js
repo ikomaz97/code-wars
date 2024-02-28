@@ -3,3 +3,7 @@ function nameShuffler(str) {
     arr = arr.reverse(); // Меняем порядок элементов массива
     return arr.join(" "); // Объединяем элементы массива обратно в строку
 }
+
+function reverse(string){
+    return string.split(' ').reverse().join(' ');
+}
