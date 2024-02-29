@@ -26,3 +26,6 @@ function hello(name) {
         return "Hello, World!";
     }
 }
+function take(arr, n) {
+    return arr.slice(0, n)
+}
