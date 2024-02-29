@@ -16,3 +16,13 @@ function addFive(num) {
 function replace(s) {
     return s.replace(/[aeiouAEIOU]/g, "!");
 }
+
+function hello(name) {
+    if (name && name !== "") {
+        // Преобразуем первую букву в верхний регистр, а остальные в нижний
+        name = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+        return "Hello, " + name + "!";
+    } else {
+        return "Hello, World!";
+    }
+}
