@@ -38,3 +38,25 @@ function pipeFix(numbers){
 function distinct(a) {
     return [...new Set(a)];
 }
+
+
+
+
+function multiTable(number) {
+    let result = '';
+
+    for (let i = 1; i <= 10; i++) {
+        result += `${i} * ${number} = ${i * number}`;
+        if (i < 10) {
+            result += '\n'; // Добавляем символ перевода строки, кроме последней строки
+        }
+    }
+
+    return result;
+}
+
+
+
+
+
+
