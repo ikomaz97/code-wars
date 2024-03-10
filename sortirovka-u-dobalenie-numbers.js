@@ -60,6 +60,8 @@ function chromosomeCheck(sperm) {
 }
 
 
+const main = (verb, noun) => verb + noun;
+
 
 
 
