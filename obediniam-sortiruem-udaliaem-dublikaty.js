@@ -14,3 +14,11 @@ const warnTheSheep = (queue) => {
         "Pls go away and stop eating my sheep" :
         `Oi! Sheep number ${queue.length - wolfIndex - 1}! You are about to be eaten by a wolf!`;
 }
+
+var findAverage = function (nums) {
+    let res = nums.length;
+    let plus = nums.reduce((acc,el)=> {
+        return acc+el
+    })
+    return plus / Math.floor(res)
+}
