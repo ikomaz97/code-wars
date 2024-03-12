@@ -2,9 +2,11 @@ function derive(coefficient, exponent) {
     let result = coefficient * exponent;
     let newExponent = exponent - 1;
 
-    if (newExponent === 1) {
-        return `${result}x`; // Если новый показатель степени равен 1, возвращаем только коэффициент с переменной x
+    if (newExponent === 0) {
+        return `${result}`;
+    } else if (newExponent === 1) {
+        return `${result}x^1`;
     } else {
-        return `${result}x^${newExponent}`; // Иначе возвращаем строку в формате "коэффициентx^показатель"
+        return `${result}x^${newExponent}`;
     }
 }
