@@ -3,6 +3,11 @@ function sayHello(name, city, state) {
     return `Hello, ${fullName}! Welcome to ${city}, ${state}!`;
 }
 
+function animal(obj){
+    return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
+}
+
+
 const rainAmount = (mm) =>{
     if (rainAmount === 40) {
         return "You need to give your plant " + {rainAmount: 40} + " mm of water"
