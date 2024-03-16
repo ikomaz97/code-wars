@@ -8,3 +8,4 @@ const   getSize = (width, height, depth) => {
     let arr =[area, volume];
     return arr;
 }
+
