@@ -23,3 +23,8 @@ function sumOfDifferences(arr) {
 
 
 sumOfDifferences = arr => arr.length <= 1 ? 0 : Math.max(...arr) - Math.min(...arr);
+
+
+const  check = (a,x) => {
+    return a.includes(x) ? true : false;
+};
