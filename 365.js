@@ -11,7 +11,7 @@ type ChangeUserPasswordTypeAT = {
         XXX
         YYY
     }
-}
+}dasd
 
 }
 
