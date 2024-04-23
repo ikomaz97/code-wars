@@ -5,7 +5,7 @@ type UserType = {
     password: string
 }
 
-type ChangeUserPasswordTypeAT = {
+type ChangeUserPasswordTypeAT = {fsddd
     type: "CHANGE-USER-PASSWORD"
     payload: {
         XXX
